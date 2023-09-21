@@ -1,0 +1,360 @@
+body {
+    margin:auto;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 600;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgb(60, 196, 206) 38%, rgb(77, 48, 238) 68%, rgba(25, 255, 105, 0.8) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+     color:whitesmoke;
+      max-width: 100%;
+      overflow-x: hidden;
+      position: relative;
+  
+  }
+  
+
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width:fit-content;
+    padding: 12px;
+    border:#59ff00;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-left:100px;
+    margin-top: 22px;
+    position:relative;
+    
+    background: transparent;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+   padding:12px 12px 12px 12px;
+    display:grid;
+    margin-left:100px;
+    margin-top: 20px;
+ 
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #59ff00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    margin-bottom:-920px;
+    margin-right: 1300px;
+    margin-top: 70px;
+
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+
+
+  .last_contact{
+    margin-left:400px;
+margin-top: 40px;
+  }
+  .ig_link{
+    margin-left:460px;
+margin-top:-35px;
+  }
+
+  .facebook{ margin-left:580px;
+    margin-top:-39px;
+  }
+  .facebook_link{
+    margin-left:640px;
+    margin-top:-35px;
+  }
+
+  .discord{
+    margin-left:750px;
+    margin-top: -35px;
+
+  }
+.discord-link{ margin-left:820px;
+  margin-top:-35px;
+  
+}
+.reddit{
+
+    margin-left:920px;
+    margin-top: -35px;
+
+  
+}
+.reddit-link{
+  margin-left:990px;
+  margin-top:-37px;
+}
+.linked{
+  margin-left:1080px;
+  margin-top: -35px;
+
+}
+.linked-link{
+  margin-left:1150px;
+  margin-top:-33px;
+}
+/* Pozitionare locatie descriere si coordonate liceu */
+.descriere1{
+  position:absolute;
+  margin-left:300px;
+  margin-right:200px;
+  margin-top:20px;
+
+text-indent: 35px;
+  color:whitesmoke;
+  
+  
+  text-align: justify;
+  
+  overflow: auto;
+  
+    z-index:1;
+  }
+  .imagine-iorga{
+    width: 180px;
+    height: 180px;
+    margin-left:710px;
+    margin-top:-490px;
+    float:right;
+   margin-right: 10px;
+    
+    border-radius:60px;
+   border-style: groove;
+ overflow: auto;
+   white-space:nowrap;
+    z-index:0;
+  }
+  
+
+
+.institutions{
+  margin-top:-700px;
+margin-left:310px;
+}
+
+
+.institutions1-title{
+margin-left:310px;
+
+}
+
+
+
+
+
+.location-1{
+  width: 180px;
+  height: 100px;
+  margin-left:1075px;
+  margin-top:120px;
+  border-radius:5px;
+  border-style: groove;
+position: absolute;
+overflow: auto;
+
+}
+
+
+.contact_1{
+
+  position:absolute;
+
+text-indent: 35px;
+  color:whitesmoke;
+  
+  
+  text-align: justify;
+  
+  overflow: auto;
+  
+    z-index:1;
+
+
+    margin-left:350px;
+    margin-top:125px;
+
+}
+
+
+/* Pozitionare locatie descrirere si coordonate liceu */
+
+
+/* Pozitionare locatie descrirere si coordonate facultate */
+
+.descriere2{
+
+  position:absolute;
+  margin-left:300px;
+  margin-right:200px;
+  margin-top:325px;
+
+text-indent: 35px;
+  color:whitesmoke;
+  
+  
+  text-align: justify;
+  
+ overflow: hidden;
+  
+    z-index:1;    
+
+}
+
+.imagine-csie{
+width: 180px;
+height: 180px;
+margin-left:710px;
+margin-top:-175px;
+float:right;
+margin-right: 10px;
+
+border-radius:60px;
+border-style: groove;
+overflow: auto;
+white-space:nowrap;
+z-index:0;
+}
+
+.institutions2-title{
+  margin-left:315px;
+  margin-top:324px;
+  }
+
+.location-2{
+  width: 180px;
+height: 100px;
+
+
+margin-top:-65px;
+float:right;
+margin-right: -640px;
+
+border-radius:5px;
+border-style: groove;
+overflow: auto;
+white-space:nowrap;
+z-index:0;
+}
+
+
+
+.contact_2{
+
+  position:absolute;
+
+text-indent: 35px;
+  color:whitesmoke;
+  
+  
+  text-align: justify;
+  
+  overflow: auto;
+  
+    z-index:1;
+
+margin-top: 80px;
+margin-left:350px;
+
+}
+
+/* Pozitionare locatie descrirere si coordonate facultate */
+
+
+
+/* Animatie poza loc 1 */
+.pozaloc1_d {
+  position: absolute;
+  margin-top:160px;
+float:right;
+margin-left:860px;
+
+  background:transparent;
+  
+  visibility: hidden;
+  opacity: 0;
+
+ 
+  transition: opacity .2s, visibility .2s;
+}
+
+.pozaloc1_wrap:hover .pozaloc1_d {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Animatie poza loc 1 */
+
+
+/* Animatie poza loc 2 */
+.pozaloc2_d {
+  position: absolute;
+  margin-top:114px;
+float:right;
+margin-left:860px;
+
+  background:transparent;
+  
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.pozaloc2_wrap:hover .pozaloc2_d {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Animatie poza loc 2 */

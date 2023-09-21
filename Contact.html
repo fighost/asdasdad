@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+
+    <link rel="stylesheet" href="style3.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+
+ 
+    <div class="form">
+        <form method="POST" action="https://script.google.com/macros/s/AKfycbw9WuiJam0dIIt_92TErlqWn2aVPJi_LK-S-OHJ7O0vFmp4FasduU9A8LwY4gnRIWep/exec">
+          <label for="fname" >First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="First name...">
+          
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Last name...">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Albania">Albania</option>
+             <option value="Andorra">Andorra</option>
+              <option value="Armenia">Armenia</option>
+              <option value="Austria">Austria</option>
+              <option value="Azerbaijan">Azerbaijan</option>
+              <option value="Belarus">Belarus</option>
+             <option value="Belgium">Belgium</option>
+              <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+              <option value="Croatia">Croatia</option>
+              <option value="Cyprus">Cyprus</option>
+              <option value="Czechia">Czechia</option>
+              <option value="Denmark">Denmark</option>
+              <option value="Estonia">Estonia</option>
+              <option value="Finland">Finland</option>
+              <option value="France">France</option>
+              <option value="Georgia">Georgia</option>
+              <option value="Germany">Germany</option>
+              <option value="Greece">Greece</option>
+              <option value="Hungary">Hungary</option>
+              <option value="Iceland">Iceland</option>
+              <option value="Ireland">Ireland</option>
+              <option value="Italy">Italy</option>
+              <option value="Kazakhstan">Kazakhstan</option>
+              <option value="Kosovo">Kosovo</option>
+              <option value="Latvia">Latvia</option>
+              <option value="Liechtenstein">Liechtenstein</option>
+              <option value="Lithuania">Lithuania</option>
+              <option value="Luxembourg">Luxembourg</option>
+              <option value="Malta">Malta</option>
+              <option value="Moldova">Moldova</option>
+              <option value="Monaco">Monaco</option>
+              <option value="Montenegro">Montenegro</option>
+              <option value="Netherlands">Netherlands</option>
+              <option value="North Macedonia">North Macedonia</option>
+              <option value="Norway">Norway</option>
+              <option value="Poland">Poland</option>
+              <option value="Portugal">Portugal</option>
+              <option value="Romania">Romania</option>
+              <option value="Russia">Russia</option>
+              <option value="San Marino">San Marino</option>
+              <option value="Serbia">Serbia</option>
+              <option value="Slovakia">Slovakia</option>
+              <option value="Slovenia">Slovenia</option>
+              <option value="Spain">Spain</option>
+              <option value="Sweden">Sweden</option>
+              <option value="Switzerland">Switzerland</option>
+              <option value="Turkey">Turkey</option>
+              <option value="Ukraine">Ukraine</option>
+              <option value="United Kingdom (UK)">United Kingdom (UK)</option>
+              <option value="Vatican City">Vatican City </option>
+
+          </select>
+      
+          <label for="subject">Message </label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    
+
+      <!--
+
+        Script pt database google sheets
+      -->
+      <script
+
+        src="Google Sheet.js"> </script> 
+
+        
+   <!--
+
+        Script pt database google sheets
+      -->
+
+
+<div class="last_contact">
+  
+      <p>
+        Find me on : 
+      </p>
+
+      <img src="data:image/png;base64,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">
+      
+    </div>
+  
+    <!-- 
+      link pt instagram 
+
+    -->
+<div class="ig_link">
+  <a href="https://www.instagram.com/888flavius/?hl=en"  style="text-decoration:none"  title="Instagram ">Instagram</a>
+ </div>
+
+  <!-- 
+      link pt instagram 
+      
+    -->
+
+  <!-- 
+      link pt facebook
+      
+    -->
+    <div class="facebook">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE1klEQVR4nO2Z609bZRzHT7ht64DJdWNlzA7GWoyvjIv+FZqomZkvJJkvfa8hjsNt0DEqQ2DQcqczJijgBXDqFuOyxPhCsxBMHPSyXg6l7WnP6SnQnkL5maeoYeG05zx9oGrCN/m9/3xPn9/v+T3fUtSRjnQkck1BtnYi9OqlcaGhdjw0XTvO/35xNBSsGeNi1aNcrHqED2qGuSXNcHBaYwo2nDexr1A0ZFH/tl74bPOczhzWaycF96UJAVDVjofg4hgqHmpGeage4eHCMJcozVAQnjehCsD5wYCraoDtUJvYyoyD10wJZTpz2KidFETtZBiw4Y0BqBpkE1V5xy9W3vENVBiZ0ozA190NX9VOrgd05jCQwp8bSBhIlLrfx57t9b19aOAvGSG37m54SGdeh0OAh7N9qLxQ0esdpIyQe9DwqjpzeCED8HDmEy+U96zNVxgZ1UHB52YS/nTPWqLKbq/+QNFLecQGMnRsYC98+W0PlHV7oLSbGSCD/zT8Dim8xsjCtXsCjC5G4IFDhF/XtuBnJgYPnSLMWaLw0UNBEr6sexVKP16Foi73lbTgtROhEt3kup8E/rVZHmz8NqTSI5eYFL7EwEBJFxPI70pjxKI5TwL/+iwP4vZOSvi9BiThDQwUdzFQ1Onqx4J/0bxRSXJJXTCx4BLioESPXGJq+FtuVGKRnqnC+fp6koZ9/35YEfzfBmTg4blOF5y66exQRk9DlnZCcJFMm+knUZCSI7QNb85wUDvo260BL2j61xTAu6BQ73CjpVGWP7FVEo7K5aB0474xw6VuWIM0/KmbTijUJ+qyrAG0EpPO+WBkf/N61uNwhgC+oMMB+XrHh/IGJkIzpJfUlkT//rIaI4Iv6HDAyXbH57IGasf4JdIbNi4xPe/bo0Tw+e0OUN2wL8oaqBkLBUjXAykD39uiRPAnbzyFE212v7yBUU4k3W2SG0gfXtX2FFSt9qisgeoRTsSBRxcWH915pqQUiwNwkfi+Mv22rgy+zQ4nWpQZCOB8eUGUXxdSqeknXhl8qx2OtdjkjxBKD3CODamBqzOsIvjjLTY43myTb2LNUHAG58yTGrg87FEG32KDY802+TGKchuchg0RGNiKA5TecimFh7wmyweyBlDohPOSqp/j4b2Fv2qeg2tzHEhZerwWg/qvA1D/FQvvfrlbV77wY8BbIafZ+rKiZa7KyDrTfQaiUSk1Rr+zRpRPm9b98LlNVofiNA8lZunCozmfzEC68HnIAG1pp5QKxX27iRk+PLqgpAzcs0RI4KNUwxM1hSMU96UDn9zAZrrwkN1o6cWCTxgY4ovVfT4/LjxaD5IZSAc+p9HCUvQf6eWmKKvEhUd7TSoDmPCQ3bjyFkUilFXiwKcygA1/fbmPItYUZJ/u8cziPEYkDaxsYsHnNK7MUfSPOeQG0K9gZFTl3Z55pfu8lIFvVzaVw19f+YaiDyjc/UdGyEVZpZJ9PrkBhceGPqAvLyWUVZYY3P5Uj5FkBmTgfcQNq1QF7e4SFPcVdbqjUutBMgPJLqlsNOfppWIq0yo2ONUoMSvUO5x7LykpAwvLG8/uNrTVmVgPcG/YQxENWSh0QrkNij4WveKGi4/FN2I7sLm1A0xoK25+LLBon0crcWKr/C/8zXqkI1H/f/0JPDNnaCVeJTwAAAAASUVORK5CYII=">
+    </div>
+    <div class="facebook_link">
+      <a href="https://www.facebook.com/flavius.mihai.37/"  style="text-decoration:none"  title="Facebook ">Facebook</a>
+    </div>
+  <!-- 
+      link pt facebook
+      
+    -->
+    
+ <!-- 
+      link pt discord
+      
+    -->
+
+    <div class="discord">
+      <img class="discord_picture" src="discord.png" 
+      width="45" 
+       height="45"
+       >
+    </div>
+<div class="discord-link">
+  <a href="https://discordapp.com/users/431396002344206338"   style="text-decoration:none" title="Discord ">Discord</a>
+</div>
+
+    <!-- 
+      link pt discord
+      
+    -->
+
+
+    <!-- link pt reddit-->
+
+<div class="reddit">
+
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFd0lEQVR4nO2Y22/bVBzHLcTGA4wnBGxj8MDLxAMSvID4EzamgUC8cJFYom4tKo23ddIasw2msgzYuGhcJiGNDbFVXCqQ0IqadIkTO3Fc5353EjeXNlnjxMnWXUHwQ7+zDrpubVzImk7qV/pI1vHvnPP9nXNsn2OKWtaylrWsZurq2nufgTZ/aaTNdaPJXDPQzJFXu/feT90pMpqYISPNwEwMJkbp6HnnmdmxALCy0WgcnFTV0vhEaSI7lrdEo9GV7TNP971ITJvM5S3bmacMb+9+0mhivNeSMP9hpM1HjXTfs1t6e1dhfKPRsFRUFcYnSqDk8pBMZyAcS1jaloDBxPDTo/7G9bKOjo4VRpo5aKCZ32fPTHYsN9s8SIFQuS3mt9J9aw0m85+49ru7u++Zfb9j++71BhNzyGAyh420+RwmkJAzN5oPhoEflcbbkoCBZl6bHtlf9dbJjuUtM827R33g4IQDVDtkpM2Hpx/Y/XrrRKPRlbjmR4PhCbcoTdg5wfJ9ux5iA20+jQls6WFeoO5EGcjaZqDD1Pc0dSfKQDMlksBO8+PUUla1Wl3baDReqdfrn2iaNlKv10P1er1YUdW/VFUFTdMmsEzTNBvGYCzWodqpcnnqwVqttqtW01K1mgb/kWStVuvFtlpqTtO0zZOTqiNfHL+QySoX4inZHknIm6bvPaZWqycrqnpVrVahFVRU9WqlWv0O28Y+Ysnk5kQq7cC+0cPkZMWuadomveYt+CWUMwp5F/tCERD9QRB8AUgpyvDZSmVqslKB28SlrKJwguQnfWLf6AG9oKdard4/r3lV1TbnC0WIJWVS2SP5gfV4wSWMwli+AOWzk4tCLl8AziuRvtEDekFP6E3TtOfnTCBXHHdEEykYDYTAJYhg5z3gFETIFQpQKpcXlUJxnAwcekAv6Am95QvjZ+ZMIJ6SpzDQ6fHCiMsNDrcAuXyRTF87yOcL4OAF4gU9obdYSj4/ZwK+UGTK5R0lFawsB+lMloxEO5EzCticPPGE3vyhyLk5ExB8fjtOGZqXQmHIFYrzoyggH+iE2IaHIbZxNciWt0hZy+IL18BNHXpCbx6ff2TOBFxucRPJ1slDWhkj29r5SB3ohOhzd91AytLVsnhlmnR2DGwuN5kJVhA2UvPJyrr6PVIAMspYU3AkZxuKbXioZfGZGeDbaNjB6dvVJlIpt5xVoBnRWxnauKZl8fIM4nKao/QqKadzeKhoRrx/202G4u93tiw+OYNEOqPoTiCWlC/HU2loSiwOsf5t5IEk9G8jZS2LT/0LetKdQCSRvBxNpmBpkbyoO4FwPJmLxJOwpIgl9C+hUDQ2GIrGYSkRjMR/0J1AIBx9MxCJwlLCF4m8rjsBLpFY5QuGq7gLbMY3A4Pwy5CNfC31xCMY+/OQFY4PDOqsE1aDweC91EIkBkK9uHlqhlv0wZ6Dn0L37v3w4ZGv4djJH4m530ZYOONyE/Aay/AexmDs3g8+I/989PQh+YM7qIXKbrffLfiCotcfhGbgV/KrEwPQ2fvuDb8Jb0XXrn1w9PgpckDy6mjb6w8I6GXBCZBZEMV1bslfRoN6wAPIsYGf4L2PPoceph+27thDwOv9h76AY6cG/zmk6MEt+UuCEHqE+j9yCv4nONFX5kUfLCpeX4mXpPVUK+SSpEddgujDE9LiIEqsKK6jWilJklY4PJ4e1uM9j6ej2wHrFi6yHu++06flm/5kt0wsK65z8MK3Dl64gse9FnHFwXlOYNvUYslulx4YcfE7R1x8/PrrcqGMkLr8DmyLaqeGOW6Nzcm/bHVyH9tYzmpl+aDVyRWtLHeJ4OSKNpYPWJ38sI3lD1tZ7qUhll3dVtPLWtayqCWhvwF0kXdxeih9SAAAAABJRU5ErkJggg==">
+</div>
+
+
+<div class="reddit-link">
+  <a href="https://www.reddit.com/user/Flavius2234"  style="text-decoration:none"  title="Reddit ">Reddit</a>
+</div>
+<!-- link pt reddit-->
+
+<!-- link pt linked-->
+
+<div class="linked" >
+  <img class="linked_picture" src="Screenshot_9.png" 
+  width="42" 
+   height="42"
+   >
+</div>
+<div class="linked-link">
+  <a href="https://www.linkedin.com/in/mihai-flavius-pirjoleanu-58594a219/" style="text-decoration:none" title="Linked">Linked</a>
+</div>
+
+<!-- link pt linked-->
+
+
+<!-- Text scoli si institutii  liceu -->
+<div class="institutions"> 
+<p>
+  Educational and training institutions
+</p>
+</div>
+
+<div class="descriere1">
+<p>
+  The National College "Nicolae Iorga", having classes of real and human profile with specialization in mathematics - computer science, intensive computer science, intensive English, natural sciences, social sciences, philology with bilingual English program, is part of a small elite of establishments in the country with this specificity.
+  The "Nicolae Iorga" National College trains professionals who demonstrate entrepreneurial skills and competences, flexibility in thinking, creative spirit, aesthetic and artistic taste.
+  
+
+</p>
+</div>
+
+<div class="institutions1-title" style="color: rgb(235, 235, 11);">
+  <p>
+    National College "Nicolae Iorga"
+  </p>
+</div>
+
+<a href="http://www.ltnibr.ro/">
+
+  <img class="imagine-iorga" src="emblemaliceu.png">
+</a>
+
+
+<div class="contact_1"> 
+<p>
+  Email: cnnibraila@gmail.com 
+
+</p>
+<p>
+  Phone: +40239614307
+</p>
+</div>
+
+<div class="pozaloc1_wrap">
+  <img src="pozaloc1.png" class="location-1">
+  <p class="pozaloc1_d"> 44.447910,26.099129</p>
+</div>
+
+
+
+<!-- Text scoli si institutii liceu -->
+
+
+
+<!-- Text scoli si institutii  facultate -->
+
+
+<div class="descriere2">
+
+<p>
+
+  The Faculty of Cybernetics, Statistics and Economic Informatics (CSIE) has a nationally and internationally recognized tradition of promoting the most modern methods of economic-mathematical and statistical analysis as well as the development of electronic data processing and communication techniques from the economic field and from the areas related to it.
+
+
+</p>
+
+</div>
+<a href="https://csie.ase.ro/">
+  <img src="emblemafaculty.png"    class="imagine-csie"> 
+
+</a>
+
+
+
+
+<div class="institutions2-title" style="color: rgb(235, 235, 11);">
+<p>
+CSIE Academy of Economic Studies Bucharest
+
+</p>
+</div>
+
+<div class="contact_2"> 
+  <p>
+    Email: secretariat@csie.ase.ro
+  
+  </p>
+  <p>
+    Phone: +4021 311 2066
+  </p>
+  </div>
+
+
+<div class="pozaloc2_wrap">
+  <img src="pozaloc2.png" class="location-2">
+  <p class="pozaloc2_d"> 44.447910,26.099129</p>
+</div>
+
+
+</div>
+
+<!-- Text scoli si institutii  facultate -->
+
+</body>
+</html>
